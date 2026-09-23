@@ -7,3 +7,5 @@
 /* Keep the country switch and play action close together on phone screens. */
 @media(max-width:740px){.masthead{gap:9px;padding:18px 0 16px}.wordmark{font-size:35px}.intro{padding:18px 20px 15px;gap:13px}.intro .eyebrow{display:none}h1{font-size:34px}.country-switch button{padding:11px 19px;font-size:19px}.poster{height:clamp(310px,93vw,460px)}}
 @media(max-width:350px){.wordmark{font-size:32px}h1{font-size:32px}.poster{height:310px}.poster-caption p{font-size:10px}}
+
+.play>b{margin-left:auto}
