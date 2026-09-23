@@ -1,0 +1,22 @@
+/* The attack selector is a picture with its name, with no separate info column. */
+.chile-andes #selected-pet{
+ left:50%;right:auto;bottom:10px;transform:translateX(-50%);
+ width:124px;min-width:0;max-width:none;height:112px;min-height:0;
+ display:block;padding:0;gap:0;overflow:hidden;border:2px solid #ffda85;
+ border-radius:12px;background:#193b31;box-shadow:0 2px 0 #80613a;
+}
+.chile-andes #selected-pet>img{
+ display:block;width:100%!important;height:100%!important;max-width:none;
+ flex-basis:auto;border-radius:0;object-fit:cover;object-position:center;
+}
+.chile-andes #selected-pet>span{
+ position:absolute;inset:auto 0 0;margin:0;padding:18px 4px 5px;
+ background:linear-gradient(transparent,#102720e8 44%);color:#fff5db;
+ font-size:13px;line-height:1.08;text-align:center;text-shadow:0 1px 3px #000;
+ overflow-wrap:normal;white-space:normal;
+}
+.chile-andes #selected-pet>.recipe-meter,.chile-andes #selected-pet>i{display:none!important}
+@media(orientation:landscape) and (max-height:600px){
+ .chile-andes #selected-pet{left:auto;right:23px;bottom:126px;transform:none;height:104px}
+ .chile-andes #selected-pet>span{font-size:12px}
+}
