@@ -1,4 +1,4 @@
-import {COUNTRIES,readPreferences} from './catalog.mjs?ui=chile-realismo-r1';
+import {COUNTRIES,readPreferences} from './catalog.mjs?ui=chile-playfix-r2';
 const KEY='fvt-landing-r1',track=document.getElementById('campaigns'),reduced=matchMedia('(prefers-reduced-motion: reduce)'),mobile=matchMedia('(max-width: 740px)');
 let raw=null;try{raw=localStorage.getItem(KEY);}catch{}const prefs=readPreferences(raw);
 function save(){try{localStorage.setItem(KEY,JSON.stringify(prefs));}catch{}}
